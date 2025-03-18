@@ -19,7 +19,7 @@
 
 - `curl http://localhost:5090/health-check`
 
-![image](https://github.com/user-attachments/assets/248815fb-7c77-4179-ac72-2cf0fcaa2775)
+![image](https://github.com/user-attachments/assets/73d75c11-4cd3-45e6-b625-78306e9f4d5e)
 
 ## 헬스체크 성공이 뜨면 초기화 완료.
 
