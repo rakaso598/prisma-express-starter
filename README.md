@@ -1,4 +1,4 @@
-## Express + Prisma (sqlite)
+# Express + Prisma (sqlite) 스타터 템플릿.
 
 - 반복적으로 사용하기에 만든 기본 틀.
 
@@ -13,6 +13,8 @@
 - `npm run dev` 실행 확인하고, `.http` 에서 `Health-Check` 요청해보세요.
 
 - 그리고 콘솔 응답 `OK`가 나오는지 확인하세요.
+
+![image](https://github.com/user-attachments/assets/9574e919-7058-433e-9c75-d34c8cb1d12d)
 
 ---
 
