@@ -24,13 +24,13 @@
 
 ---
 
-### .env (git ignored, 직접 추가하세요.)
+### .env (git ignored 이므로 추가해줍니다.)
 
 - `DATABASE_URL="file:./dev.db"`
 
 ---
 
-### CLI : 실행 명령어입니다.
+### CLI : 명령어 설명입니다.
 
 - `npm init` : node 프로젝트 초기화.
 - `npm i express cors` : 웹 프레임워크, CORS 처리 미들웨어 설치.
@@ -54,7 +54,7 @@
 
 ---
 
-### schema.prisma (sqlite 사용 시)
+### schema.prisma 자주쓰는 명령어
 
 - `npm install typescript tsx @types/node --save-dev`
 
