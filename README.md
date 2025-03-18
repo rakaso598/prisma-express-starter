@@ -6,15 +6,19 @@
 
 ---
 
-### 프로젝트 초기화
+## 순서대로 실행하여 초기화하세요.
 
-- `git clone` 이후 `npm install` 진행.
+- `git clone https://github.com/rakaso598/prisma-express-starter.git`
 
-- `npm run dev` 실행 확인하고, `.http` 에서 `Health-Check` 요청해보세요.
+- `npm install`
 
-- 그리고 콘솔 응답 `OK`가 나오는지 확인하세요.
+- `echo 'DATABASE_URL="file:./dev.db"' > .env`
 
-![image](https://github.com/user-attachments/assets/9574e919-7058-433e-9c75-d34c8cb1d12d)
+- `curl http://localhost:5090/health-check`
+
+![image](https://github.com/user-attachments/assets/248815fb-7c77-4179-ac72-2cf0fcaa2775)
+
+### 헬스체크 성공이 뜨면 초기화 완료.
 
 ---
 
