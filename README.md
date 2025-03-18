@@ -2,23 +2,25 @@
 
 - 반복적으로 사용하기에 만든 기본 틀.
 
-- 타입: `commonjs`
-
 ---
 
 ## 순서대로 실행하여 초기화하세요.
 
 - `git clone https://github.com/rakaso598/prisma-express-starter.git`
 
+- `cd prisma-express-starter/`
+
 - `npm install`
 
 - `echo 'DATABASE_URL="file:./dev.db"' > .env`
+
+- `npm run dev`
 
 - `curl http://localhost:5090/health-check`
 
 ![image](https://github.com/user-attachments/assets/248815fb-7c77-4179-ac72-2cf0fcaa2775)
 
-### 헬스체크 성공이 뜨면 초기화 완료.
+## 헬스체크 성공이 뜨면 초기화 완료.
 
 ---
 
